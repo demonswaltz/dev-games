@@ -11,7 +11,7 @@ h5,
 h6 {
   padding:0;
   margin:0;
-  font-family: "Roboto", sans-serif;
+  font-family: "NTR", sans-serif;
 }
 
 .clear-fix {
@@ -157,6 +157,7 @@ ul {
 }
 
 img {
+  max-height: 350px;
   padding: 10px;
 }
 
@@ -166,6 +167,69 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 816px;
+    margin-bottom: 10px;
+    display: flex;
+    vertical-align: text-top;
+    height: 352px;
+}
+
+.col-1 {
+    width: 68px;
+}
+
+.col-2 {
+    width: 136px;
+}
+
+.col-3 {
+    width: 204px;
+}
+
+.col-4 {
+    width: 272px;
+    
+}
+
+.col-5 {
+    width: 340px;
+}
+
+.col-6 {
+    width: 408px;
+}
+
+.col-7 {
+    width: 476px;
+}
+
+.col-8 {
+    width: 544px;
+}
+
+.col-9 {
+    width: 612px;
+}
+
+.col-10 {
+    width: 680px;
+}
+
+.col-11 {
+    width: 748px;
+}
+
+.col-12 {
+    width: 816px;
 }
 
 /* Media queries to handle various device widths */
